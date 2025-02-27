@@ -1,0 +1,11 @@
+<h1>Contatos</h1>
+<button routerLink="/adicionar">Novo Contato</button>
+<ul>
+  <li *ngFor="let contato of contatos">
+    {{contato.nome}} - {{contato.email}} - {{contato.fone}}
+    <button [routerLink]="['/editar', contato.id]">Editar</button>
+    <button (click)="openDialog(contato.id)">Excluir</button>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

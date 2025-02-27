@@ -1,0 +1,121 @@
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.btn-novo {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.info h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.info p {
+  margin: 3px 0;
+  color: #666;
+}
+
+.acoes {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-editar, .btn-excluir {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-editar {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-excluir {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Estilos de paginação */
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn-pagina {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.btn-pagina:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.paginas-numeros {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-numero-pagina {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  color: #333;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pagina-ativa {
+  background-color: #2196F3;
+  color: white;
+  border-color: #2196F3;
+}
+
+.sem-contatos {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* Estilização do paginator do Material */
+::ng-deep .mat-mdc-paginator {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-top: 20px;
+}
